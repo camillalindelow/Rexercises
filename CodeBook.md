@@ -1,4 +1,4 @@
-This is the codebook for ...
+This is the codebook for 
 
 ###Data collected
 Feature vaiables (see below) were collected for 30 test persons (Subjects) performing 6 activities (WALKING, WALKING UPSTAIRS, WALKING DOWNSTAIRS, SITTING, LAYING, STANDING).
@@ -35,5 +35,6 @@ Additional mean values were captured by averaging the signals in a signal window
 
 The total sum of features in this subset is 86.
 
-###data cleaning process
+###Data cleaning process
+
 
