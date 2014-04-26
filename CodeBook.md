@@ -29,7 +29,7 @@ Raw signals captured from accelerometer and gyroscope are denoted Acc-XYZ and Gy
 variables for the above-mentioned signals used in this analysis (a subset of the original analysis) are mean and standard deviation values.
 
 Additional mean values were captured by averaging the signals in a signal window sample. These were denoted as follows:
-*gravityMean
+* gravityMean
 * tBodyAccMean
 * tBodyAccJerkMean
 * tBodyGyroMean
@@ -49,7 +49,7 @@ Features Headers are extracted from column 2 in the file features.txt and added 
 
 The 3 created column parts (Subjects, Activities and Features) are merged into one table with cbind.
 
-A table with only mean and standar deviation values of features is created with grep, searching for Subjects OR Activities OR mean OR std.
+A table with only mean and standard deviation values of features is created with grep, searching for Subjects OR Activities OR mean OR std.
 
 This table is recasted using melt/dcast to get the feature mean values for each Subject and each Activity (a total of 180 rows)
 
