@@ -12,7 +12,7 @@ CodeBook.md (in this repo) describes variables, the data, and the data cleaning 
 The project consisted of merging several files from the dataset into one dataset. From this dataset, Mean and Std features where extracted. The variable Activity had to be relabeled with descriptive names. Finally, a second dataset had to be created with average of each feature (Mean and Std) for each Activity and Subject.
 
 Procedure
-* File storage: The downloaded dataset was saved to R-folder (/Users/camilla/Documents/R), and opened from there within R.
+* File storage: The downloaded dataset was saved to a R-folder (/Users/camilla/Documents/R), set as working directory.
 * Constructing one dataset: Variables (Subjects, Activities and Features) were stored in separate files in the original dataset. These were further divided in two sets, Test and Train (see CodeBook for details). To first add Test and Train rowwise and then add the variables columnwise seemed a logical approach.
 * Headers: The initial data didn't have headers, so that is added along the way. Headers for features were taken from the file features.txt
 * Activity labels: The Activity variables were initially coded 1:6, these were relabeled in a more descriptive manner using the key in file activity_labels.txt. This was done before merging all the columns into one table.
