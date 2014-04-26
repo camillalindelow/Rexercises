@@ -1,10 +1,12 @@
 #Description
+#Script for peer assessment exercise in course "Getting and cleaning data". More info in README.md and CodeBook.md.
 
-#Subjects merged rowwise
+#Creating tables
 ColSubjectsTest <- read.table("/Users/camilla/Documents/R/UCI HAR Dataset/test/subject_test.txt", header=FALSE)
 
 ColSubjectsTrain <- read.table("/Users/camilla/Documents/R/UCI HAR Dataset/train/subject_train.txt", header=FALSE)
 
+#Subjects merged rowwise
 ColSubjects <- rbind(ColSubjectsTest, ColSubjectsTrain)
 
 #give header name to column (Subjects)
