@@ -59,4 +59,4 @@ library(reshape2)
 moltTableMeanStd <- melt(TableMeanStd, id = c("Subjects", "Activities"))
 dcastTableMeanStd <- dcast(moltTableMeanStd, formula = Subjects + Activities ~ variable, mean)
 
-write.csv(dcastTableMeanStd, file = "TidyData")
+write.csv(dcastTableMeanStd, file = "TidyData.txt")
