@@ -1,4 +1,7 @@
-This is the codebook for 
+This is the codebook for:
+Course project for the course "Getting and cleaning data" given by John Hopkins University/Coursera platform Submitted April 26 2014
+
+Dataset from "Human Activity Recognition Using Smartphones Dataset" Version 1.0 Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012 Dataset downloaded here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 ###Data collected
 Feature vaiables (see below) were collected for 30 test persons (Subjects) performing 6 activities (WALKING, WALKING UPSTAIRS, WALKING DOWNSTAIRS, SITTING, LAYING, STANDING).
