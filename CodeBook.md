@@ -39,5 +39,11 @@ Additional mean values were captured by averaging the signals in a signal window
 The total sum of features in this subset is 86.
 
 ###Data cleaning process
+The first part of the script reads data from the files described in README.md (set to working directory "/Users/camilla/Documents/R/UCI HAR Dataset/..."
 
+Rows are merged rowwise with rbind-function
+Column headers names are given with names()
 
+Activity labels are clarified in plain text within the "Activity"-column with ex. ColActivities$V1[ColActivities$V1 == 1] <- "WALKING"
+
+Features Headers are extracted from file features.txt
