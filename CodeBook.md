@@ -46,4 +46,12 @@ Column headers names are given with names()
 
 Activity labels are clarified in plain text within the "Activity"-column with ex. ColActivities$V1[ColActivities$V1 == 1] <- "WALKING"
 
-Features Headers are extracted from file features.txt
+Features Headers are extracted from column 2 in the file features.txt and added after the rowmerging procedure.
+
+The 3 created column parts (Subjects, Activities and Features) are merged into one table with cbind.
+
+A table with only mean and standar deviation values of features is created with grep, searching for Subjects OR Activities OR mean OR std.
+
+This table is recasted using melt/dcast to get the feature mean values for each Subject and each Activity (a total of 180 rows)
+
+This table is written to a csv-file, TidyData, which is the one uploaded on the course site.
